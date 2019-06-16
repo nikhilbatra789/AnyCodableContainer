@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NBCodableContainer'
   s.version          = '1.0.0'
-  s.summary          = 'NBCodableContainer contains is an extention to KeyedDecodingContainer & KeyedEncodingContainer enabling you to Decode and Encode [Any], [String:Any], Any type variables.'
+  s.summary          = 'NBCodableContainer contains is an extention to KeyedDecodingContainer & KeyedEncodingContainer enabling you to Decode and Encode Any Type.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -22,23 +22,17 @@ Pod::Spec.new do |s|
   - Able to handle nil while decoding and Encoding Both
   - It also supports UnkeyedEncodingContainer.
   - Compatible with Swift 5 and Swift 4.2. 
+			DESC
 
-  s.homepage         = 'https://github.com/nikhil-advoco/NBCodableContainer'
+  s.homepage         = 'https://github.com/nikhilbatra789/NBCodableContainer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'GNU GPLv3', :file => 'LICENSE' }
-  s.author           = { 'nikhil-advoco' => 'nikhilbatra789@gmail.com' }
+  s.author           = { 'nikhilbatra789' => 'nikhilbatra789@gmail.com' }
   s.source           = { :git => 'https://github.com/nikhilbatra789/NBCodableContainer.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/nikhilbatra789'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'NBCodableContainer/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'NBCodableContainer' => ['NBCodableContainer/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '4.2'
 end
