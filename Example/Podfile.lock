@@ -1,0 +1,16 @@
+PODS:
+  - NBCodableContainer (1.0.0)
+
+DEPENDENCIES:
+  - NBCodableContainer (from `../`)
+
+EXTERNAL SOURCES:
+  NBCodableContainer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NBCodableContainer: ab44da0467851ef98b620c531cbadf9bf78dee49
+
+PODFILE CHECKSUM: 100ea6f0206c8ad71d022ae183b782b4496db8e1
+
+COCOAPODS: 1.6.1

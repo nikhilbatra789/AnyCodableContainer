@@ -1,0 +1,6 @@
+framework module NBCodableContainer {
+  umbrella header "NBCodableContainer-umbrella.h"
+
+  export *
+  module * { export * }
+}
