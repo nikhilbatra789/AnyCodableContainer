@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NBCodableContainer_Example' do
+  pod 'NBCodableContainer', :path => '../'
+
+  target 'NBCodableContainer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
